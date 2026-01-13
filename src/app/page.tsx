@@ -10,16 +10,18 @@ const page = () => {
         <div className="flex justify-center gap-6">
           <Image
             src="/aiv9.jpg"
-            alt="Profile 1"
+            alt=""
             width={180}
             height={180}
+            priority
             className="rounded-full border-4 border-sky-500"
           />
           <Image
             src="/aiv10.jpg"
-            alt="Profile 2"
+            alt=""
             width={180}
             height={180}
+            priority
             className="rounded-full border-4 border-sky-500"
           />
         </div>
